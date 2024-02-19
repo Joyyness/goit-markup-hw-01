@@ -33,7 +33,7 @@ background-color: #ffffff;
 .page-nav .link:hover, .page-nav link:focus{
     color: #404bbf;
 }
-.page-nav .link:active{
+.page-nav .link:focus{
     color: #404bbf;
 }
 .contacts{
@@ -76,8 +76,8 @@ h1 {
 .button:hover{
     background-color: #404BBF;
 }
-.button:active{
-    color: #404BBF;
+.button:focus{
+    background-color: #404BBF;
 }
 .strategy{
     text-align:center;
