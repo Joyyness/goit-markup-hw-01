@@ -1,16 +1,22 @@
 
 body{
-font-family: "Roboto", "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
+color:#434455;
+background-color: #ffffff;
 }
 .logo{
-    color: #404bbf;
-    font-size:700;
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-size:18px;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 700;
     text-transform: uppercase;
+    line-height:1.17;
+    letter-spacing: 0.03em;
+    
 }
 .logo-black{
-    color:black;
+    color:#2e2f42;
     text-decoration: none;
 }
 .page-nav{
@@ -20,42 +26,88 @@ font-family: "Roboto", "Raleway", sans-serif;
     color: #2e2f42;
     text-decoration: none;
     font-size: 400;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.page-nav .link:hover, .page-nav link:focus{
+    color: #404bbf;
+}
+.page-nav .link:active{
+    color: #404bbf;
 }
 .contacts{
     list-style-type: none;
+    font-style: normal;
 }
 .contacts .link{
     text-decoration: none;
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.section-1{
+.contacts .link:hover, .contacts .link:focus{
+    color: #404bbf;
+}
+.contacts .link:active{
+    color: #404bbf;
+}
+.effective{
     background-color: #2e2f42;
     text-align:center;
 }
 h1 {
     text-align:center;
-    font-size:700;
+    font-size:56px;
     color:white;
+    line-height:1.07;
+    letter-spacing: 0.02em;   
 }
-.section-2{
+.button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight:500;
+    font-size:16px;
+    line-height:0.04em;
+    color:#ffffff;
+}
+.button:hover{
+    background-color: #404BBF;
+    cursor:pointer;
+}
+.button:active{
+    background-color: #404BBF;
+}
+.strategy{
     text-align:center;
 }
-.s2-ul{
+.ul-strategy{
     list-style-type: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
-h2{
+.section-title{
     color:#2e2f42;
+    font-weight:500;
+    font-size:20px;
+    line-height:0.02em;
+
 }
 h3{
     color:#434455;
 }
-.section-3{
+.our-team{
     background-color: #f4f4fd;
 }
-.section-3>h2{
-    text-align: center;
-    color:#2e2f42;
-}
-.section-3>ul{
+.our-team>ul{
     list-style-type: none;
+}
+.our-team .section-title{
+    font-size:36px;
+    line-height:1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
