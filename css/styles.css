@@ -68,12 +68,13 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-weight:500;
     font-size:16px;
-    line-height:0.04em;
+    line-height:1.15;
+    letter-spacing: 0.04em;
     color:#ffffff;
+    cursor:pointer;
 }
 .button:hover{
     background-color: #404BBF;
-    cursor:pointer;
 }
 .button:active{
     background-color: #404BBF;
@@ -81,7 +82,7 @@ h1 {
 .strategy{
     text-align:center;
 }
-.ul-strategy{
+.list{
     list-style-type: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -94,8 +95,13 @@ h1 {
     line-height:0.02em;
 
 }
-h3{
+.smaller-title{
     color:#434455;
+    font-weight: 500;
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing:0.02em;
+    color: #2e2f42;
 }
 .our-team{
     background-color: #f4f4fd;
