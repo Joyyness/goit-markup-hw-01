@@ -1,0 +1,61 @@
+
+body{
+font-family: "Roboto", "Raleway", sans-serif;
+}
+.logo{
+    color: #404bbf;
+    font-size:700;
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.logo-black{
+    color:black;
+    text-decoration: none;
+}
+.page-nav{
+    list-style-type: none;
+}
+.page-nav .link{
+    color: #2e2f42;
+    text-decoration: none;
+    font-size: 400;
+}
+.contacts{
+    list-style-type: none;
+}
+.contacts .link{
+    text-decoration: none;
+    color: #434455;
+}
+.section-1{
+    background-color: #2e2f42;
+    text-align:center;
+}
+h1 {
+    text-align:center;
+    font-size:700;
+    color:white;
+}
+.section-2{
+    text-align:center;
+}
+.s2-ul{
+    list-style-type: none;
+}
+h2{
+    color:#2e2f42;
+}
+h3{
+    color:#434455;
+}
+.section-3{
+    background-color: #f4f4fd;
+}
+.section-3>h2{
+    text-align: center;
+    color:#2e2f42;
+}
+.section-3>ul{
+    list-style-type: none;
+}
