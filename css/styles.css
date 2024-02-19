@@ -68,7 +68,7 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-weight:500;
     font-size:16px;
-    line-height:1.15;
+    line-height:1.5;
     letter-spacing: 0.04em;
     color:#ffffff;
     cursor:pointer;
@@ -127,4 +127,7 @@ background-color: #2e2f42;
     line-height:1.5;
     color:#F4F4FD;
     letter-spacing:0.02em;
+}
+.point{
+    background-color: #ffffff;
 }
