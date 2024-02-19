@@ -117,3 +117,14 @@ h1 {
     text-transform: capitalize;
     color: #2e2f42;
 }
+.footer{
+background-color: #2e2f42;
+}
+.logo-footer{
+    color:#f4f4fd;
+}
+.text-footer{
+    line-height:1.5;
+    color:#F4F4FD;
+    letter-spacing:0.02em;
+}
