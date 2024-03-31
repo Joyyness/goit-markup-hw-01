@@ -1,4 +1,8 @@
-
+*
+*::before
+*::after {
+    box-sizing: border-box;
+}
 body{
 font-family: "Roboto", sans-serif;
 color:#434455;
@@ -13,6 +17,7 @@ background-color: #ffffff;
     text-transform: uppercase;
     line-height:1.17;
     letter-spacing: 0.03em;
+    margin-left:156px;
     
 }
 .logo-black{
@@ -21,6 +26,10 @@ background-color: #ffffff;
 }
 .page-nav{
     list-style-type: none;
+    display:inline-flex;
+    padding: 10px;
+    margin-left: 191px;
+    gap:40px;
 }
 .page-nav .link{
     color: #2e2f42;
@@ -39,6 +48,12 @@ background-color: #ffffff;
 .contacts{
     list-style-type: none;
     font-style: normal;
+    display:inline-flex;
+    align-items: center;
+    margin-right: 25px;
+    gap:176px;
+    margin-left: 800px;
+
 }
 .contacts .link{
     text-decoration: none;
@@ -108,6 +123,7 @@ h1 {
 }
 .our-team>ul{
     list-style-type: none;
+
 }
 .our-team .section-title{
     font-size:36px;
@@ -130,4 +146,16 @@ background-color: #2e2f42;
 }
 .point{
     background-color: #ffffff;
+}
+.section {
+    padding: 120px 0;
+    align-content: center;
+}
+.container {
+    width: 1158;
+}
+.header {
+    border-bottom: 1px solid #000000;
+    display:inline-flex;
+    align-items: center;
 }
