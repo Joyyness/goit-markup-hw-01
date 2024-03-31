@@ -17,8 +17,7 @@ background-color: #ffffff;
     text-transform: uppercase;
     line-height:1.17;
     letter-spacing: 0.03em;
-    margin-left:156px;
-    
+    margin-right:76px;
 }
 .logo-black{
     color:#2e2f42;
@@ -26,10 +25,9 @@ background-color: #ffffff;
 }
 .page-nav{
     list-style-type: none;
-    display:inline-flex;
-    padding: 10px;
-    margin-left: 191px;
-    gap:40px;
+    display:flex;
+    gap:40px
+
 }
 .page-nav .link{
     color: #2e2f42;
@@ -38,6 +36,7 @@ background-color: #ffffff;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .page-nav .link:hover, .page-nav link:focus{
     color: #404bbf;
@@ -48,12 +47,8 @@ background-color: #ffffff;
 .contacts{
     list-style-type: none;
     font-style: normal;
-    display:inline-flex;
-    align-items: center;
-    margin-right: 25px;
-    gap:176px;
-    margin-left: 800px;
-
+    display:flex;
+    gap:40px;
 }
 .contacts .link{
     text-decoration: none;
@@ -153,9 +148,18 @@ background-color: #2e2f42;
 }
 .container {
     width: 1158;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .header {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #e7e9fc;
     display:inline-flex;
     align-items: center;
+}
+.header-cont {
+display:flex;
+}
+.nav {
+display:flex;
+align-items: center;
 }
