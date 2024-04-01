@@ -125,6 +125,7 @@ h1 {
     font-weight:500;
     font-size:20px;
     line-height:0.02em;
+    margin-bottom:72px;
 
 }
 .smaller-title{
@@ -134,10 +135,15 @@ h1 {
     line-height:1.2;
     letter-spacing:0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .our-team{
     background-color: #f4f4fd;
     padding:120px 0;
+}
+.desc {
+    text-align: center;
 }
 .our-team>ul{
     list-style-type: none;
@@ -164,6 +170,8 @@ background-color: #2e2f42;
 }
 .point{
     background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+
 }
 .section {
     padding: 120px 0;
