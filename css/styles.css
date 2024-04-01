@@ -3,6 +3,11 @@
 *::after {
     box-sizing: border-box;
 }
+svg{
+    height: 64px;
+    width: 64px;
+    z-index: 999;
+}
 h1,
 h2,
 h3,
@@ -112,6 +117,7 @@ a.contacts .link:active{
     background-position: center;
     background-size: cover;
     justify-content: center;
+    margin:0 auto;
 }
 h1 {
     text-align:center;
@@ -341,4 +347,5 @@ text-align: center;
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
+    z-index: -1;
   }
