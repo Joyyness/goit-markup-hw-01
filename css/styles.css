@@ -3,6 +3,9 @@
 *::after {
     box-sizing: border-box;
 }
+img{
+    display:block;
+}
 body{
 font-family: "Roboto", sans-serif;
 color:#434455;
@@ -82,6 +85,11 @@ h1 {
     letter-spacing: 0.04em;
     color:#ffffff;
     cursor:pointer;
+    display:block;
+    min-width:169px;
+    height:56px;
+    border:none;
+    border-radius: 4px;
 }
 .button:hover{
     background-color: #404BBF;
@@ -162,4 +170,11 @@ display:flex;
 .nav {
 display:flex;
 align-items: center;
+}
+.ul-strategy {
+    text-decoration: none;
+    list-style-type: none;
+}
+.page-title{
+    max-width: 496px;
 }
