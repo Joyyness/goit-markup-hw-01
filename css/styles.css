@@ -176,7 +176,7 @@ padding: 100px 0;
 .point{
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
-    width:calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .section {
     padding: 120px 0;
@@ -213,7 +213,7 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .strategy-title{
     color:#434455;
@@ -234,7 +234,7 @@ align-items: center;
     row-gap: 48px;
 }
 .portfolio-list{
-    width: calc((100% - 48px)/ 3);
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-desc{
     padding:32px 16px;
