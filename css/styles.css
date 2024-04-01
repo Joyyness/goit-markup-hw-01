@@ -3,11 +3,28 @@
 *::after {
     box-sizing: border-box;
 }
-*{
-    text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin-top:0;
+margin-bottom:0;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 img{
     display:block;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
 }
 body{
 font-family: "Roboto", sans-serif;
@@ -38,11 +55,11 @@ background-color: #ffffff;
 .page-nav .link{
     color: #2e2f42;
     text-decoration: none;
-    font-size: 400;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 .page-nav .link:hover, .page-nav link:focus{
     color: #404bbf;
@@ -78,7 +95,9 @@ h1 {
     font-size:56px;
     color:white;
     line-height:1.07;
-    letter-spacing: 0.02em;   
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 .button{
     background-color: #4D5AE5;
@@ -94,6 +113,7 @@ h1 {
     height:56px;
     border:none;
     border-radius: 4px;
+    margin:0 auto;
 }
 .button:hover{
     background-color: #404BBF;
@@ -102,7 +122,6 @@ h1 {
     background-color: #404BBF;
 }
 .strategy{
-    text-align:center;
     padding:120px 0;
 }
 .visually-hidden {
@@ -125,7 +144,7 @@ overflow:hidden;
 }
 .section-title{
     color:#2e2f42;
-    font-weight:500;
+    font-weight:700;
     font-size:20px;
     line-height:0.02em;
     margin-bottom:72px;
@@ -138,7 +157,6 @@ overflow:hidden;
     line-height:1.2;
     letter-spacing:0.02em;
     color: #2e2f42;
-    text-align: center;
     margin-bottom: 8px;
 }
 .our-team{
@@ -186,14 +204,16 @@ padding: 100px 0;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    justify-content: center;
+    align-items: center;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
-    display:inline-flex;
-    align-items: center;
 }
 .header-cont {
 display:flex;
+align-items: center;
+margin-right: auto;
 }
 .nav {
 display:flex;
@@ -232,6 +252,7 @@ align-items: center;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style-type: none;
 }
 .portfolio-list{
     width: calc((100% - 48px) / 3);
@@ -240,7 +261,6 @@ align-items: center;
     padding:32px 16px;
     border: 1px solid #e7e9fc;
     border-top:none;
-    margin-bottom: 8px;
 }
 .box-footer{
     display:inline-block;
