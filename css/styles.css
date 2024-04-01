@@ -3,6 +3,9 @@
 *::after {
     box-sizing: border-box;
 }
+*{
+    text-align: center;
+}
 img{
     display:block;
 }
@@ -68,6 +71,7 @@ a.contacts .link:active{
 .effective{
     background-color: #2e2f42;
     text-align:center;
+    padding:188px;
 }
 h1 {
     text-align:center;
@@ -99,6 +103,16 @@ h1 {
 }
 .strategy{
     text-align:center;
+    padding:120px 0;
+}
+.visually-hidden {
+    margin:-1;
+    overflow: hidden;
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
 }
 .list{
     list-style-type: none;
@@ -123,6 +137,7 @@ h1 {
 }
 .our-team{
     background-color: #f4f4fd;
+    padding:120px 0;
 }
 .our-team>ul{
     list-style-type: none;
@@ -174,7 +189,25 @@ align-items: center;
 .ul-strategy {
     text-decoration: none;
     list-style-type: none;
+    display: flex;
+    gap: 24px;
 }
 .page-title{
     max-width: 496px;
+}
+.strategy-list{
+    list-style-type: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+    width:calc((100%-72px)/4);
+}
+.strategy-title{
+    color:#434455;
+    font-weight: 500;
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing:0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
