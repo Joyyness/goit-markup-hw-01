@@ -42,6 +42,20 @@ background-color: #ffffff;
     letter-spacing: 0.03em;
     margin-right:76px;
 }
+.logo .link{
+    color: #404BBF;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo .link::after{
+    content:"";
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:-1px;
+    height:4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
 .logo-black{
     color:#2e2f42;
     text-decoration: none;
@@ -148,6 +162,7 @@ overflow:hidden;
     font-size:20px;
     line-height:0.02em;
     margin-bottom:72px;
+    text-align: center;
 
 }
 .smaller-title{
@@ -204,20 +219,20 @@ padding: 100px 0;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    justify-content: center;
     align-items: center;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-cont {
 display:flex;
 align-items: center;
-margin-right: auto;
 }
 .nav {
 display:flex;
 align-items: center;
+margin-right: auto;
 }
 .ul-strategy {
     text-decoration: none;
@@ -268,6 +283,11 @@ align-items: center;
 }
 .portfolio {
 margin-bottom:72px;
+color:#2e2f42;
+font-weight:700;
+font-size:20px;
+line-height:0.02em;
+text-align: center;
 }
 .name {
     color:#434455;
@@ -279,3 +299,27 @@ margin-bottom:72px;
     margin-bottom: 8px;
     text-align: center;
 }
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  .icon-icon2 {
+    width: 2.357421875em;
+  }
+  
+  .icon-icon3 {
+    width: 2.357421875em;
+  }
+  
+  .icon-icon4 {
+    width: 2.357421875em;
+  }
+  
+  .icon-icon1 {
+    width: 2.357421875em;
+  }
+  
